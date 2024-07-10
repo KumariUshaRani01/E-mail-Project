@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- 
+    This website was created using HTML, CSS and JavaScript 
+    @author: kumari usha rani
+  -->
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="https://img.freepik.
+  com/premium-vector/icon-light-bulb-white_373887-1378.jpg?w=740">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Valid Email Checker</title>
+</head>
+
+<body>
+  <!-- NAVBAR  -->
+  <nav class="navbar">
+    <img src="image/logo.png" alt="logo">
+    <h2 id="websiteName"><a href="/">Check Email</a></h2>
+  </nav>
+
+  <!-- UPPER SECTION  -->
+  <section class="main-area">
+    <div class="heading">
+      <img src="image/email.jpg" alt="email image">
+      <h1>Email Verifier</h1>
+    </div>
+    <p>Verify valid email address format with EmailVerifier email checker.</p>
+    <script src="javascript/script.js"></script>
+  </section>
+
+  <!-- USER INPUT AREA  -->
+  <section class="input-box">
+    <div>
+      <input type="text" value="" name="" id="userEmail" placeholder="Enter a Email address" required
+        onclick="clearMessage()">
+      <input type="button" id="button" value="Check" onclick="main()">
+    </div>
+    <p>Enter a email address to check email is valid or not</p>
+  </section>
+
+  <!-- FOOTER  -->
+  <footer class="footer">
+    <div id="result"></div>
+    <p>Website design for education purpose only</p>
+    <p id="author">&copy; designed by Kumari Usha Rani</p>
+
+  </footer>
+</body>
+
+</html>
